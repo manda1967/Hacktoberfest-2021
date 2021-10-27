@@ -1,1 +1,23 @@
+/*##Area Of Circle In C++*/
+/*##Calculation C++ Programs, Datatype C++ Programs, Basic C++ Programs*/
 
+#include <iostream>
+#include<conio.h>
+#include<stdlib.h>
+
+using namespace std;
+
+int main(){
+	// Declare Variables
+	float radius, area;
+
+	cout << "Simple C++ Program : Area Of Circle\n";
+	cout <<"\nEnter the radius of Circle : ";
+	cin>>radius;
+
+	area = 3.14 * radius * radius;
+	cout <<"\nArea of Circle : "<<area;
+
+	getch();
+	return (0);
+}
